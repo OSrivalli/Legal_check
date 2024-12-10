@@ -46,6 +46,7 @@ def get_prs_by_branch_regex(org_repo: str, branch_regex: str, github: Github) ->
 '''
 
 def main() -> None:
+    '''
     org_repo = os.environ["ORG_REPO"]
     token = os.environ["GITHUB_TOKEN"]
 
@@ -59,7 +60,9 @@ def main() -> None:
     #    sys.exit(1)
 
     add_comment(org_repo, pr_num, pr_comment, github)
-
+    '''
+    print("HEllooooooooooooooooooooooooooooooooooooooooooooooooooooooo")
+    
 main()
   
         
