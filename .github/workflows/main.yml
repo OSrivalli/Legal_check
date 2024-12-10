@@ -8,7 +8,7 @@ inputs:
   github_token:
     description: get token
     required: true
-    default: ${{ github_token }}
+    default: ${{ github.token }}
 
 runs:
   using: composite
